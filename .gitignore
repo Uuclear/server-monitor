@@ -1,0 +1,42 @@
+# Agent (Go)
+agent/agent
+agent/agent-*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Flutter
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.pub-cache/
+app/.pub/
+app/pubspec.lock
+
+# iOS
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/ephemeral/
+app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# macOS
+app/macos/Pods/
+app/macos/Flutter/ephemeral/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+*.log

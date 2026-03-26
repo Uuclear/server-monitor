@@ -1,0 +1,12 @@
+[Unit]
+Description=Server Monitor Agent
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/agent -config /etc/server-monitor/config.json
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
